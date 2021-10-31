@@ -26,3 +26,23 @@ h1 {
   font-style: italic;
   color: #ff6f00;
 }
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  color: #3d3d3d;
+}
+
+h1 {
+  font-style: italic;
+  color: #ff6f00;
+}
+
+video {
+  display: block;
+}
+
+section {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
