@@ -1,0 +1,44 @@
+{
+    "version": 2,
+    "nodejs": "14.17.4",
+    "sheet": {
+        "id": "d3957e10-39e0-11ec-b195-8dcca2cd9c60",
+        "language": "javascript",
+        "cells": [
+            {
+                "id": "f7e80bc0-39e0-11ec-b195-8dcca2cd9c60",
+                "cellType": "markdown",
+                "code": "# CodeLab Smart WebCam Tutorial\n[markdownguide](https://www.markdownguide.org/basic-syntax/)\n\n[CodeLab Tutorial](https://codelabs.developers.google.com/codelabs/tensorflowjs-object-detection?hl=en&continue=https%3A%2F%2Fcodelabs.developers.google.com%2F#0)\n\n[Tensorflow JS Boilerplate](https://glitch.com/~tensorflow-js-boilerplate)",
+                "output": [],
+                "errors": [],
+                "height": 173
+            },
+            {
+                "id": "5c3b2e90-39e1-11ec-b195-8dcca2cd9c60",
+                "cellType": "markdown",
+                "code": "## 1. Before you begin",
+                "output": [],
+                "errors": [],
+                "height": 73
+            },
+            {
+                "id": "d395a520-39e0-11ec-b195-8dcca2cd9c60",
+                "cellType": "code",
+                "cellScope": "global",
+                "code": "",
+                "lastEvaluationDate": "2021-10-30T17:29:17.624-07:00",
+                "output": [],
+                "errors": [],
+                "height": 82
+            },
+            {
+                "id": "45fd6d50-39f5-11ec-959b-5b6ca08ae4fe",
+                "cellType": "markdown",
+                "code": "Now on step 6 [here](https://codelabs.developers.google.com/codelabs/tensorflowjs-object-detection?hl=en&continue=https%3A%2F%2Fcodelabs.developers.google.com%2F#5)",
+                "output": [],
+                "errors": [],
+                "height": 101
+            }
+        ]
+    }
+}
