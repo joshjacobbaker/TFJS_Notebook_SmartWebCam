@@ -1,7 +1,7 @@
 /**
  * @license
  * Copyright 2018 Google LLC. All Rights Reserved.
- * Licensed under the Apache License, Version 2.0 (the "License");
+ * Licensed under the Apache License, Version 2.0 (the "License")
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
@@ -38,20 +38,26 @@ if (getUserMediaSupported()) {
 function enableCam(event) {
   // Only continue if the COCO-SSD has finished loading.
   if (!model) {
-    return;
+    return
   }
-  
+
   // Hide the button once clicked.
-  event.target.classList.add('removed');  
-  
+  event.target.classList.add("removed")
+
   // getUsermedia parameters to force video but not audio.
   const constraints = {
-    video: true
-  };
+    video: true,
+  }
 
   // Activate the webcam stream.
-  navigator.mediaDevices.getUserMedia(constraints).then(function(stream) {
-    video.srcObject = stream;
-    video.addEventListener('loadeddata', predictWebcam);
-  });
+  navigator.mediaDevices.getUserMedia(constraints).then(function (stream) {
+    video.srcObject = stream
+    video.addEventListener("loadeddata", predictWebcam)
+  })
+}
+// Placeholder function for next step.
+function predictWebcam() {}
 
+// Pretend model has loaded so we can try out the webcam code.
+var model = true
+demosSection.classList.remove("invisible")
